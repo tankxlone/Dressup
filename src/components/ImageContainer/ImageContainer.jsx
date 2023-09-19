@@ -8,13 +8,13 @@ const ImageContainer = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="/assets/c-1.jpg" className="d-block w-100" alt="..." />
+              <img src="/assets/c-1.jpg" className="d-block w-100" alt="..." loading="lazy" />
             </div>
             <div className="carousel-item">
-              <img src="/assets/c-2.jpg" className="d-block w-100" alt="..." />
+              <img src="/assets/c-2.jpg" className="d-block w-100" alt="..." loading="lazy" />
             </div>
             <div className="carousel-item">
-              <img src="/assets/c-3.jpg" className="d-block w-100" alt="..." />
+              <img src="/assets/c-3.jpg" className="d-block w-100" alt="..." loading="lazy" />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

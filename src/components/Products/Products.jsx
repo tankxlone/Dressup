@@ -12,7 +12,7 @@ const Products = ({ products }) => {
         {products.map((product) => (
           <div className="col" key={product.id}>
             <div className="card h-100">
-              <img src={product.image} className="card-img-top" style={{ width: '100%', height: 600 + 'px'}} alt={product.title} />
+              <img src={product.image} className="card-img-top" style={{ width: '100%', height: 600 + 'px'}} alt={product.title} loading='lazy' />
               <div className="card-body">
                 <h5 className="card-title">{product.title}</h5>
                 <p className="card-text">Rs.{product.price}</p>

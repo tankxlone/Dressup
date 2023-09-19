@@ -20,7 +20,7 @@ const Cart = () => {
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-4">
-                                        <img src={item.image} alt={item.title} className="img-fluid" />
+                                        <img src={item.image} alt={item.title} className="img-fluid" loading="lazy"/>
                                     </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
